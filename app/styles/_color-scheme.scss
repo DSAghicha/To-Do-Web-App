@@ -1,0 +1,48 @@
+.dark-mode {
+    background: $backgrnd-color-dark;
+    color: $font-color-dark;
+    .bg-banner {
+        background: url("../images/bg-desktop-dark.jpg");
+    }
+    #task-input {
+        background-color: $primary-color-dark;
+        color: $font-color-dark;
+    }
+    .task-display {
+        background-color: $primary-color-dark;
+    }
+    .nav-bar {
+        background-color: $primary-color-dark;
+    }
+    .delete-item {
+        background: url("../images/delete_dark.svg") no-repeat;
+    }
+    label {
+        color: $font-color-dark;
+    }
+}
+
+.light-mode {
+    background: $backgrnd-color-light;
+    color: $font-color-dark;
+    .bg-banner {
+        background: url("../images/bg-desktop-light.jpg");
+        ;
+    }
+    #task-input {
+        background-color: $primary-color-light;
+        color: $font-color-light;
+    }
+    .task-display {
+        background-color: $primary-color-light;
+    }
+    .nav-bar {
+        background-color: $primary-color-light;
+    }
+    .delete-item {
+        background: url("../images/delete_light.svg") no-repeat;
+    }
+    label {
+        color: $font-color-light;
+    }
+}
